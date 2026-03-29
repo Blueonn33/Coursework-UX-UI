@@ -53,7 +53,7 @@
     </section>
     <section class="container mb-5">
       <div class="card-group">
-        <div class="card">
+        <div class="card" id="card-indigo">
           <img src="images/Indigo.png" class="card-img-top" alt="Logo" />
           <div class="card-body">
             <h5 class="card-title fw-bold">Индиго</h5>
@@ -67,7 +67,12 @@
               <p class="card-text mb-0">
                 <small class="text-body-secondary">317 страници</small>
               </p>
-              <button class="btn btn-secondary">Прочети</button>
+              <button
+                class="btn btn-secondary read-card"
+                data-target="card-indigo"
+              >
+                Прочети
+              </button>
             </div>
           </div>
         </div>
@@ -94,7 +99,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card" id="card-onyx">
           <img src="images/Onyx.png" class="card-img-top" alt="Logo" />
           <div class="card-body">
             <h5 class="card-title fw-bold">Оникс</h5>
