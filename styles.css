@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Atkinson Hyperlegible", sans-serif !important;
 }
 .navbar {
   background-color: #431264;
@@ -11,4 +12,16 @@ body {
 }
 .bookstore-title {
   color: #431264;
+}
+.card-group {
+  display: grid;
+  gap: 20px;
+}
+.card {
+  border: 3px solid #431264 !important;
+  border-radius: 10px !important;
+}
+.card img {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
 }
