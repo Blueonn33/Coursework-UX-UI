@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+.navbar {
+  background-color: #431264;
+  /* text-align: center; */
+}
+.navbar-container {
+  display: flex;
+  justify-content: center !important;
+}
+.bookstore-title {
+  color: #431264;
+}
